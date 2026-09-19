@@ -17,6 +17,7 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://jitansh-arora.vercel.app"),
   title: "Jitansh Arora — Software Engineer",
   description:
     "Portfolio of Jitansh Arora, a computer science student and software engineer focused on backend systems, infrastructure, and systems programming.",
@@ -36,9 +37,11 @@ export const metadata: Metadata = {
     "distributed systems",
   ],
   icons: { icon: "/favicon.svg" },
+  alternates: { canonical: "/" },
   openGraph: {
     title: "Jitansh Arora — Software Engineer",
     description: "Backend, infrastructure, and systems engineering portfolio.",
+    url: "/",
     siteName: "Jitansh Arora Portfolio",
     locale: "en_CA",
     type: "website",

@@ -1,0 +1,39 @@
+# dependencies
+/node_modules
+
+# Next.js build output
+/.next
+/out
+
+# tests, audits, and local tooling
+*.tsbuildinfo
+next-env.d.ts
+/artifacts/
+/audit/
+/audits/
+/audit-results/
+/coverage/
+/playwright-report/
+/test-results/
+/.cache/
+.eslintcache
+lighthouse*.html
+lighthouse*.json
+*.trace.zip
+
+# local duplicate or working assets (published models live under /public)
+/models/
+
+# hosting-provider local state
+/.vercel/
+/.netlify/
+/.wrangler/
+.dev.vars*
+
+# environment files
+.env*
+!.env.example
+
+# operating system / logs
+.DS_Store
+*.log
